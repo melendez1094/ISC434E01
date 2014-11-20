@@ -16,5 +16,15 @@ namespace Practica1.Modelo
         public List<Capa> Capas { get; set; }
 
         #endregion
+
+        #region Metodos
+        public void AgregarObjeto(ObjetoVisual Objeto)
+        { }
+        public void EliminarObjeto(ObjetoVisual Objeto)
+        { }
+        public void MoverObjeto(ObjetoVisual Objeto)
+        { }
+
+        #endregion
     }
 }

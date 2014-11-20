@@ -16,5 +16,11 @@ namespace Practica1.Modelo
 
         public List<ObjetoVisual> ObjetosVisuales { get; set; }
         #endregion
+
+        #region Metodos
+        public void Renderizar()
+        { }
+      
+        #endregion
     }
 }
